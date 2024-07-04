@@ -3,6 +3,7 @@ import Footer from "../components/footer";
 import NavBar from "../components/navbar";
 
 
+
 const RootLayout = () => {
   return (
     <>

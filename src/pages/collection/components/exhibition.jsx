@@ -1,6 +1,6 @@
 const Exhibition = () => {
   return (
-    <div>Exhibition</div>
+    <div></div>
   )
 };
 

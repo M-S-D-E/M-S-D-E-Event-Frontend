@@ -1,11 +1,13 @@
 
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import './App.css'
-import LandingPage from './pages/landing'
-import About from './pages/about'
-import Collection from './pages/collection'
-import ContactUs from './pages/contact-us'
-import RootLayout from './layouts/rootLayout'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import './App.css';
+import LandingPage from './pages/landing';
+import About from './pages/about';
+import Collection from './pages/collection';
+import ContactUs from './pages/contact-us';
+import RootLayout from './layouts/rootLayout';
+import BlogHeader from './components/BlogHeader';
+import Login from './pages/login';
 
 
 
@@ -32,6 +34,14 @@ function App() {
           path: "contact-us",
           element: <ContactUs />
 
+        },
+        {
+          path: "blog",
+          element: <BlogHeader />
+        },
+        {
+          path: "login",
+          element: <Login />
         }
       ]
     }

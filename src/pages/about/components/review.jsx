@@ -1,6 +1,6 @@
 const Review = () => {
   return (
-    <div>Review</div>
+    <div></div>
   )
 };
 

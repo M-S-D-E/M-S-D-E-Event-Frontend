@@ -1,16 +1,15 @@
 
 import About from "./components/about";
-import Collection from "./components/collection";
+import Events from "./components/events";
+
 import Hero from "./components/hero";
 
 
 const LandingPage = () => {
   return <div>
-      <Hero />
-      
+      <Hero /> 
       <About />
-      <Collection />
-
+      <Events />
     </div>
   
 };
