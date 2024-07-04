@@ -14,11 +14,11 @@ const Hero = () => {
         />
       </div>
       <div className="absolute top-0 left-0 inset-0 flex bg-black/50 flex-col items-center justify-center text-white text-center z-20">
-              <h1 className="text-4xl md:text-6xl font-bold">Where Your Vision Becomes a Reality</h1>
+              <h1 className="text-4xl md:text-6xl font-bold text-[#C58940]">"MSDE"</h1>
               <p className="mt-4 text-lg md:text-2xl w-3/5">
-                Experience the magic of perfectly planned events. At Stella Events, we transform your ideas into unforgettable moments with precision, creativity, and elegance. From intimate gatherings to grand celebrations, we handle every detail to make your event truly spectacular.
+              Discover the enchantment of flawlessly orchestrated events. At MSDE, we turn your visions into extraordinary memories with unparalleled creativity.
               </p>
-              <button className="mt-8 px-6 py-3 bg-[#333333] hover:bg-[#FFD700] text-white font-bold rounded">Explore More</button>
+              <button className="mt-8 px-6 py-3 bg-[#C58940] hover:bg-[#181613] text-white font-bold rounded">Explore More</button>
             </div>
     </div>
   );

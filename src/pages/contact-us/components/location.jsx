@@ -151,6 +151,16 @@ const Location = () => {
               />
             </div>
           </div>
+
+          {/* Submit Button */}
+          <div className="col-span-1 md:col-span-2 text-center">
+            <button
+              type="submit"
+              className="h-14 w-full md:w-1/2 bg-black text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-600"
+            >
+              Submit
+            </button>
+          </div>
         </form>
       </div>
     </div>

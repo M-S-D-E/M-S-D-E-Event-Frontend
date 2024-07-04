@@ -2,8 +2,7 @@ import Hero from "./components/hero";
 import Exhibition from "./components/exhibition";
 import NavBar from "../../components/navbar";
 import Events from "../landing/components/events";
-import People from "../landing/components/people";
-import Groups from "../landing/components/groups";
+
 const Collection = () => {
   return (
     <div className="bg-white p-10 mx-auto my-[100px]">
@@ -25,8 +24,7 @@ const Collection = () => {
         </div>
       </div>
       <Events/>
-      <People />
-      <Groups />
+      
    
     </div>
   );
