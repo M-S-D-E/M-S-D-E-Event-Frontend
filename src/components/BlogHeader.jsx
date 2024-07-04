@@ -9,7 +9,6 @@ const BlogHeader = () => {
       <div className="flex justify-center space-x-4 mb-8">
         <button className="bg-orange-500 text-white py-2 px-4 rounded">Lifestyle</button>
         <button className="bg-yellow-200 text-gray-700 py-2 px-4 rounded">Finance</button>
-        {/* <button className="bg-yellow-200 text-black py-2 px-4 rounded">Wellness</button> */}
         <button className="bg-blue-200 text-gray-700 py-2 px-4 rounded">Marketing</button>
         <button className="bg-pink-500 text-white py-2 px-4 rounded">Business</button>
       </div>
