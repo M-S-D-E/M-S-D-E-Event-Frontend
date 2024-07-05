@@ -10,7 +10,7 @@ const Events = () => {
 
   // Define  a function to fetch events
   const getEvents = async () => {
-    const response = await axios.get('https://m-s-d-e-event-backend-1.onrender.com/events');
+    const response = await axios.get('https://m-s-d-e-event-backend-1.onrender.com/events?limit=0');
     if (response.status === 200) {
       setEvents(response.data);
     } else {
