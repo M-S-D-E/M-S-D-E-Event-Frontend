@@ -6,7 +6,7 @@ const Footer = () => {
     <section className="bg-[#363131] p-12 text-center relative">
       <div className="mb-10">
         <h2 className="text-[#b9a44d] text-lg">Want to know about our offers first?</h2>
-        <h1 className="text-white text-4xl my-4">Subscribe our newsletter</h1>
+        <h1 className="text-white text-4xl my-4">Subscribe to our newsletter</h1>
         <form className="flex justify-center my-5">
           <input
             type="email"

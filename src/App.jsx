@@ -6,7 +6,7 @@ import About from './pages/about';
 import Collection from './pages/collection';
 import ContactUs from './pages/contact-us';
 import RootLayout from './layouts/rootLayout';
-import BlogHeader from './components/BlogHeader';
+// import BlogHeader from './components/BlogHeader';
 import Login from './pages/login';
 
 
@@ -34,10 +34,6 @@ function App() {
           path: "contact-us",
           element: <ContactUs />
 
-        },
-        {
-          path: "blog",
-          element: <BlogHeader />
         },
         {
           path: "login",

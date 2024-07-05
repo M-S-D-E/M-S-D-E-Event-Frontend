@@ -6,7 +6,7 @@ import Events from "../landing/components/events";
 const Collection = () => {
   return (
     <div className="bg-white p-10 mx-auto my-[100px]">
-      <h2 className="text-center text-gray-500 uppercase mb-2">Blog</h2>
+      
       <h1 className="text-center text-4xl font-bold mb-6">Everything You Need to Know</h1>
       <div className="flex justify-center space-x-4 mb-8">
         <button className="bg-orange-500 text-white py-2 px-4 rounded">Lifestyle</button>
